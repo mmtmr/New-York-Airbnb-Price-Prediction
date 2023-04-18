@@ -14,6 +14,7 @@ import re
 import numpy as np
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+import langdetect
 from langdetect import detect
 
 from geopy.geocoders import Nominatim
