@@ -94,7 +94,7 @@ def load_saved_artifacts():
 
     global __model
     if __model is None:
-        with open(r'C:\Users\Afnan Ali\FYP Project\Airbnb_Rental_Price_Prediction_Tuned_XGBoost_Model.pkl', 'rb') as f:
+        with open(r'https://github.com/AfnanAli6/New-York-Airbnb-Price-Prediction/blob/main/Airbnb_Rental_Price_Prediction_Tuned_XGBoost_Model.pkl', 'rb') as f:
             __model = pickle.load(f)
     print("loading saved artifacts...done")
 
