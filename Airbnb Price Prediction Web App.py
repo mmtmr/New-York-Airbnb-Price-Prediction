@@ -89,7 +89,7 @@ def load_saved_artifacts():
     print("loading saved artifacts...start")
     global  __data_columns
 
-    with open(r"C:\Users\Afnan Ali\FYP Project\columns.json", "r") as f:
+    with open(r"https://github.com/AfnanAli6/New-York-Airbnb-Price-Prediction/blob/main/columns.json", "r") as f:
         __data_columns = json.load(f)['data_columns']
 
     global __model
