@@ -12,7 +12,7 @@ import streamlit as st
 from PIL import Image
 import re
 import numpy as np
-
+import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from langdetect import detect
 
